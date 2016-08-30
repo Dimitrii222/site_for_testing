@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	width: 80%;
+	padding:  0% 10% 0% 10%;
+	height: 100%;
+	color: #487D79;
+	font-family: Roboto, sans-serif;
+	font-size: 0.9em;
+	line-height: 135%;
+}
+
+a {
+	text-decoration: none;
+	color: #487D79;
+	margin: 1%;
+}
+
+.clear {
+	clear: both;
+}
+
+/*стили для шапки*/
+
+header {
+	height: 100px;
+	padding: 50 0 50 0;
+	border-bottom: 1px solid silver;
+	
+}
+
+header #logo {
+	width: 45%;
+	float: left;
+	margin-top: 35px;
+}
+
+header #logo span {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+header #headMenu {
+	width: 55%;
+	float: left;
+	text-align: right;
+	margin-top: 35px;
+}
+
+header #headMenu a {
+	padding: 1%;
+	border-radius: 5px;
+}
+
+header #headMenu a:hover {
+	background-color: #4BA934;
+	color: #E9E9E9;
+}
+
+/*стили для тела*/
+
+#wrapper {
+	width: 100%;
+	float: left;
+}
+
+#wrapper #featBlock {
+	width: 100%;
+	float: left;
+}
+
+#wrapper #featBlock #features {
+	width: 90%;
+	float: left;
+	text-align: center;
+	padding: 5%;
+}
+#wrapper #featBlock #features hr {
+	width: 10%;
+	margin: 3%;
+	
+}
+
+#wrapper #featBlock #ionicons, #design, #photo {
+	width: 29%;
+	float: left;
+	padding: 2%;
+	text-align: center;
+}
+
+#wrapper #featBlock #cross, #idea, #pixel, #free {
+	width: 46%;
+	float: left;
+	padding: 2%;
+	
+}
+
+#wrapper #phoneBlock {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 5%;
+	background-color: #DDE8DE;
+}
+#wrapper #phoneBlock hr {
+	width: 10%;
+	margin: 3%;
+}
+
+#wrapper #phoneBlock #imgblock {
+	width: 40%;
+	float: left;
+	height: auto;
+	
+}
+#wrapper #phoneBlock #imgblock img{ width: 80%;}
+
+#wrapper #phoneBlock #text {
+	width: 55%;
+	height: 300px;
+	float: left;
+	padding: 2%;
+	text-align: left;
+	padding-top: 15%;
+}
+
+
+#wrapper #phoneBlock #text ul {
+	margin-left: 15px;
+}
+
+#wrapper #quotation {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+
+#wrapper #quotation #qoute {
+	width: 55%;
+	float: left;
+	margin-top: 100px;
+}
+#wrapper #quotation #qoute blockquote p {
+	font-size: 1.2em;
+	
+}
+
+#wrapper #quotation #photo {
+	width: 40%;
+	float: left;
+	
+}
+
+#wrapper #quotation #photo img {
+	width: 100%;
+	border-radius: 400px;
+}
+
+#wrapper #details {
+	width: 110%;
+	float: left;
+	background-color: #DDE8DE;
+}
+
+#wrapper #details #detTeaxt {
+	width: 40%;
+	float: left;
+	margin-top: 10%;
+	line-height: 135%;
+}
+
+#wrapper #details #dotmap {
+	width: 55%;
+	float: left;
+	margin: 2.5%;
+}
+
+#wrapper #details #dotmap img {
+	width: 100%;
+}
+
+#wrapper #pricing {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 10%;
+	
+}
+
+#wrapper #pricing hr {
+	width: 10%;
+	margin: 1%;
+}
+#wrapper #pricing #PricingAndPlan {
+	width: 50%;
+	float: left;
+	margin: 0 25%;
+}
+
+#wrapper #pricing #treeBlocks {
+	width: 100%;
+	margin:  5% 10%;
+	float: left;
+	
+	padding: 0 10%;
+	box-sizing: border-box;
+}
+
+#wrapper #pricing #treeBlocks #basic, #plus, #premium {
+	width: 25%;
+	float: left;
+	border: 1px solid silver;
+	padding: 1%;
+} 
+
+#wrapper #pricing #allplans {
+	width: 100%;
+	padding: 0 5%;
+}
+
+#wrapper #pricing #allplans ul {
+	box-sizing: border-box;
+	width: 30%;
+	float: left;
+	list-style-position: outside;
+	padding: 0 5%;
+	
+}
+
+#wrapper #pricing #help {
+	width: 90%;
+	margin: 5%;
+}
+
+#wrapper  #download {
+	width: 90%;
+	padding: 5%;
+	float: left;
+	background-color: #DDE8DE;
+}
+
+#wrapper  #download #dowtext {
+	width: 70%;
+	float: left;
+}
+#wrapper  #download #dowbut {
+	width: 30%;
+	float: left;
+}
+
+
+/*стили для футера*/
+
+footer {
+	width: 100%;
+	
+}
+
+footer #firstFootBlock {
+	width: 100%;
+	float: left;
+	border-top: 1px solid silver;
+}
+
+footer #firstFootBlock  #wapik, #company, #others, #newletter {
+	width: 25%;
+	float: left;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+footer #secondFootBlock {
+	width: 100%;
+	float: left;
+	padding-top: 50px;
+	border-top: 1px solid silver;
+}
+
+footer #secondFootBlock #rights {
+	width: 30%;
+	float: left;
+}
+
+footer #secondFootBlock #socialNets {
+	width: 30%;
+	float: right;
+	text-align: rigth;
+}
